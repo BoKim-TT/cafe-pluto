@@ -1,0 +1,114 @@
+body {
+  background-color: #342b38;
+
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+main {
+  background-color: #f7f6e7;
+  padding-bottom: 40px;
+}
+
+header {
+  background-color: transparent;
+  /* background-color: #007892; */
+}
+section {
+  text-align: center;
+  margin: 30px 20px;
+}
+section img {
+  width: 60%;
+}
+div .left {
+  text-align: center;
+  margin-top: 150px;
+}
+.namu {
+  width: 30%;
+}
+.btn {
+  margin-top: 30px;
+}
+.exterior {
+  width: 100%;
+  opacity: 0.9;
+  text-align: center;
+}
+.navbar {
+  background-color: transparent;
+  height: 70px;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
+}
+.navbar-brand {
+  background-color: peru;
+  padding: 7px;
+  margin-left: 5px;
+  border-radius: 100%;
+  font-size: 1rem;
+}
+
+.carousel {
+  width: 400px;
+  margin: 30px auto;
+}
+.icon {
+  color: sienna;
+}
+label {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.loca {
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-family: "Rock Salt", cursive, "Permanent Marker", cursive,
+    "Julius Sans One", sans-serif, "Sacramento";
+  color: darkslategray;
+  font-size: 3rem;
+  line-height: 1;
+  font-style: italic;
+  word-spacing: 0.35rem;
+  margin: 10% auto;
+}
+h2 {
+  font-family: "Permanent Marker", cursive, "Julius Sans One", sans-serif,
+    "Sacramento";
+  color: darkslategray;
+
+  margin-top: 10px;
+}
+
+form {
+  margin-top: 100px;
+}
+
+p {
+  text-align: left;
+  margin: 30px;
+}
+
+.card {
+  margin-top: 30px;
+}
+
+.card img {
+  width: auto;
+  height: 300px;
+}
+
+footer {
+  background-color: transparent;
+  text-align: center;
+}
+.social-icon {
+  color: #f7f6e7;
+  margin: 20px 10px;
+}
+footer p {
+  color: #f7f6e7;
+  text-align: center;
+}
