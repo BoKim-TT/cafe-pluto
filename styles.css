@@ -1,14 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+Html,
 body {
-  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  /* width: 100%; */
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  padding: 0;
   background-color: red;
 }
+
 main {
   width: 100%;
   background-color: #f7f6e7;
-  margin: 0 auto;
-  padding-bottom: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -17,7 +28,7 @@ header {
 }
 section {
   text-align: center;
-  margin: 30px 20px;
+  padding: 15px;
 }
 section img {
   width: 60%;
@@ -31,7 +42,7 @@ section img {
 }
 .contents {
   width: 70%;
-  margin: 50px auto;
+  margin: 10px auto;
 }
 .namu {
   width: 30%;
@@ -41,8 +52,10 @@ section img {
 }
 .exterior {
   width: 100%;
+  max-height: 700px;
   opacity: 0.9;
   text-align: center;
+  margin: 0 auto;
 }
 .navbar {
   background-color: transparent;
@@ -68,9 +81,6 @@ section img {
 label {
   margin-top: 20px;
   margin-right: 20px;
-}
-.loca {
-  margin-bottom: 15px;
 }
 
 h1 {
@@ -99,13 +109,14 @@ p {
   text-align: left;
   margin: 20px;
 }
+.rounded {
+  border-radius: 10%;
+}
 .card-deck {
-  
   width: 90%;
   margin: 0 auto;
 }
 .card {
-
   width: 30%;
 }
 
