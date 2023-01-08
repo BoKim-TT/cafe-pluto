@@ -1,17 +1,19 @@
 body {
-  background-color: #342b38;
-
-  font-family: "Roboto", sans-serif;
-  margin: 0 auto;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: red;
 }
 main {
+  width: 100%;
   background-color: #f7f6e7;
+  margin: 0 auto;
   padding-bottom: 40px;
 }
 
 header {
-  background-color: transparent;
-  /* background-color: #007892; */
+  background-color: #342b38;
+  width: 100%;
 }
 section {
   text-align: center;
@@ -20,9 +22,16 @@ section {
 section img {
   width: 60%;
 }
-div .left {
+.left {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 60px;
+}
+.left button {
+  margin-bottom: 20px;
+}
+.contents {
+  width: 70%;
+  margin: 50px auto;
 }
 .namu {
   width: 30%;
@@ -38,7 +47,7 @@ div .left {
 .navbar {
   background-color: transparent;
   height: 70px;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-weight: bold;
 }
 .navbar-brand {
@@ -65,8 +74,8 @@ label {
 }
 
 h1 {
-  font-family: "Rock Salt", cursive, "Permanent Marker", cursive,
-    "Julius Sans One", sans-serif, "Sacramento";
+  font-family: 'Rock Salt', cursive, 'Permanent Marker', cursive,
+    'Julius Sans One', sans-serif, 'Sacramento';
   color: darkslategray;
   font-size: 3rem;
   line-height: 1;
@@ -75,8 +84,8 @@ h1 {
   margin: 10% auto;
 }
 h2 {
-  font-family: "Permanent Marker", cursive, "Julius Sans One", sans-serif,
-    "Sacramento";
+  font-family: 'Permanent Marker', cursive, 'Julius Sans One', sans-serif,
+    'Sacramento';
   color: darkslategray;
 
   margin-top: 10px;
@@ -88,20 +97,28 @@ form {
 
 p {
   text-align: left;
-  margin: 30px;
+  margin: 20px;
 }
-
+.card-deck {
+  
+  width: 90%;
+  margin: 0 auto;
+}
 .card {
-  margin-top: 30px;
+
+  width: 30%;
 }
 
-.card img {
+.card-img-top {
   width: auto;
-  height: 300px;
+  height: auto;
+}
+.card p {
+  font-size: 13px;
 }
 
 footer {
-  background-color: transparent;
+  background-color: #342b38;
   text-align: center;
 }
 .social-icon {
@@ -111,4 +128,7 @@ footer {
 footer p {
   color: #f7f6e7;
   text-align: center;
+  margin: 0;
+  padding: 8px;
+  font-size: 11px;
 }
